@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    width: 100%;
+    height: 61rem;
+    background: linear-gradient(to bottom, white, rgb(147, 233, 147) );
+    overflow: hidden;
+}
+
+.nav-bar{
+    max-width: 60%;
+    height: 3rem;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    background-color: rgb(34, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    align-items: center;
+    border-radius: 10px;
+    padding-right: 4rem;
+    padding-left: 3.2rem;
+}
+
+.node-logo{
+    width: 9rem;
+    position: relative;
+    bottom: -0.4rem;
+}
+
+ul{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    color: white;
+    margin-top: 8px;
+}
+
+li{
+    border: 1px solid gray;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 13px;
+}
+
+li:hover{
+    background: green;
+    transition: 0.3s;
+    color: white;
+    border: none;
+}
+
+.about-page{
+    width: 70%;
+    height: 52rem;
+    margin: auto;
+    margin-top: 2rem;
+    /* border: 2px solid red; */
+    display: flex;
+    
+}
+
+.about-node{
+    width: 27rem;
+    height: 49rem;
+    border: 2px solid black;  
+}
+
+.about-note{
+    width: 70.5rem;
+    height: 49rem;
+    border: 2px solid blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last-parent{
+    width: 60%;
+    height: 4rem;
+    background-color: rgb(34, 33, 33);
+    margin: auto;
+    /* margin-top: 5rem; */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+
+}
+
+.copyright{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-left: 1px solid grey;
+    border-radius: 0%;
+    text-align: center;
+}
+
+.copyright:hover{
+    background-color: rgb(34, 33, 33);
+    border-bottom: 1px solid grey;
+    transition: 1s;
+}
+
+.footer{
+    /* margin: auto;
+    max-width: 0%; */
+    text-align: center;
+}

@@ -10,8 +10,9 @@
 
 .parent{
     width: 100%;
-    height: 36rem;
+    height: 40rem;
     background: linear-gradient(to bottom, white, lightgreen );
+    overflow: hidden;
 }
 
 .nav-bar{
@@ -52,7 +53,7 @@ li{
     border-radius: 5px;
     cursor: pointer;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 15px;
+    font-size: 13px;
 }
 
 li:hover{
@@ -74,25 +75,33 @@ li:hover{
 .download{
     max-width: 40%;
     margin: auto;
-    border:  2px solid red;
+    /* border:  1px solid green; */
     height: 16rem;
     margin-top: 3rem;
+    border-radius: 15px;
+    box-shadow: 0 2px 4px 0 rgb(10, 218, 10), 0 3px 10px 0 rgb(6, 201, 6);
+}
+
+.download:hover{
+    background-color: white;
+    transition: 0.4s;
+    box-shadow: none;
 }
 
 .download-text{
     width: 100%;
     height: 3rem;
-    border: 2px solid rgb(34, 33, 33);
+    /* border: 2px solid rgb(34, 33, 33); */
     text-align: center;
     font-size: 13px;
-    font-family: ubuntu;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 10px;
 }
 
 .features{
     width: 100%;
     height: 13rem;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -100,7 +109,69 @@ li:hover{
 .node-app{
     width: 40%;
     height: 90%;
-    border: 2px solid black;
+    border: none;
     border-radius: 10px;
-    background-color: green;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    padding-top: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.479), 0 6px 20px 0 rgba(0, 0, 0, 0.479);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 13px;
+}
+
+.users{
+    position: relative;
+    width: 8rem;
+    top: -0.3rem;
+}
+
+.recommend{
+    /* margin-bottom: 5rem; */
+    position: relative;
+    bottom: 1rem;
+    height: 4rem;
+    width: 100%;
+    /* border: 2px solid white; */
+
+}
+
+.last-parent{
+    width: 60%;
+    height: 4rem;
+    background-color: rgb(34, 33, 33);
+    margin: auto;
+    margin-top: 5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+
+}
+
+.copyright{
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    border-left: 1px solid grey;
+    border-radius: 0%;
+    text-align: center;
+}
+
+.copyright:hover{
+    background-color: rgb(34, 33, 33);
+    border-bottom: 1px solid grey;
+    transition: 1s;
+}
+
+.footer{
+    /* margin: auto;
+    max-width: 0%; */
+    text-align: center;
 }
