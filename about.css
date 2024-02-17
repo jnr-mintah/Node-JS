@@ -6,7 +6,7 @@
 
 .parent{
     width: 100%;
-    height: 61rem;
+    height: 63rem;
     background: linear-gradient(to bottom, white, rgb(147, 233, 147) );
     overflow: hidden;
 }
@@ -63,7 +63,7 @@ li:hover{
     width: 70%;
     height: 52rem;
     margin: auto;
-    margin-top: 2rem;
+    margin-top: 4rem;
     /* border: 2px solid red; */
     display: flex;
     
@@ -72,7 +72,7 @@ li:hover{
 .about-node{
     width: 27rem;
     height: 49rem;
-    border: 2px solid black; 
+    /* border: 2px solid black;  */
     justify-content: space-between;
     display: flex;
     flex-direction: column; 
@@ -82,13 +82,17 @@ li:hover{
 .about-note{
     width: 70.5rem;
     height: 49rem;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    border-left: 1px solid grey;
 }
 
 .node-image{
     width: 96%;
     height: 11.5rem;
-    border: 2px solid green;
+    border: 4px solid green;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -100,10 +104,20 @@ li:hover{
 }
 
 .pic2{
-    width: 17rem;
+    width: 18rem;
     left: -1rem;
     position: relative;
-    top: -0.5rem;
+    top: -0.75rem;
+}
+
+.pic3{
+    width: 15.3rem;
+    right: 13px;
+    position: relative;
+}
+
+.pic4{
+    width: 18rem;
 }
 
 
