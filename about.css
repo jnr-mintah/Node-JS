@@ -72,7 +72,11 @@ li:hover{
 .about-node{
     width: 27rem;
     height: 49rem;
-    border: 2px solid black;  
+    border: 2px solid black; 
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column; 
+    overflow: hidden;
 }
 
 .about-note{
@@ -81,6 +85,26 @@ li:hover{
     border: 2px solid blue;
 }
 
+.node-image{
+    width: 96%;
+    height: 11.5rem;
+    border: 2px solid green;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.pic1{
+    width: 20rem;
+    position: relative;
+    left: -3rem;
+}
+
+.pic2{
+    width: 17rem;
+    left: -1rem;
+    position: relative;
+    top: -0.5rem;
+}
 
 
 
